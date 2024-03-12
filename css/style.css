@@ -1,0 +1,1275 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, ../vs_code/html/68-landing-nexcent/sass/normalizes.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 1, ../vs_code/html/68-landing-nexcent/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, ../vs_code/html/68-landing-nexcent/sass/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, ../vs_code/html/68-landing-nexcent/sass/resets.scss */
+html {
+  height: 100%;
+}
+
+/* line 28, ../vs_code/html/68-landing-nexcent/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, ../vs_code/html/68-landing-nexcent/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, ../vs_code/html/68-landing-nexcent/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, ../vs_code/html/68-landing-nexcent/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, ../vs_code/html/68-landing-nexcent/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 4, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'InterT';
+  src: url(../fonts/Inter-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'InterT';
+  src: url(../fonts/Inter-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'InterT';
+  src: url(../fonts/Inter-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'InterT';
+  src: url(../fonts/Inter-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* line 37, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+html {
+  font-family: 'InterT';
+  font-weight: regular;
+}
+
+/* line 41, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+body {
+  background: #F5F7FA;
+}
+
+/* line 46, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.container {
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 51, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.main-section {
+  min-height: 685px;
+  margin-bottom: 40px;
+}
+
+/* line 54, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.main-section__header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 126px;
+}
+
+/* line 60, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.main-section__logo {
+  margin-right: 166px;
+}
+
+/* line 62, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.main-section__nav {
+  margin-right: 125px;
+}
+
+/* line 64, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.main-section__ul {
+  display: flex;
+}
+
+/* line 66, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.main-section__ul-li {
+  margin-right: 50px;
+}
+
+/* line 68, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.main-section__ul-li:last-child {
+  margin-right: 0;
+}
+
+/* line 70, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.main-section__ul-link {
+  text-decoration: none;
+  color: #18191F;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* line 76, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.main-section__buttons {
+  display: flex;
+}
+
+/* line 78, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.main-section__buttons-button1 {
+  padding: 10px 20px;
+  background: none;
+  border: none;
+  margin-right: 14px;
+  color: #4CAF4F;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+/* line 87, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.main-section__buttons-button2 {
+  padding: 10px 20px;
+  border-radius: 6px;
+  background: #4CAF4F;
+  border: none;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  width: 91px;
+}
+
+/* line 97, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.main-section__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+/* line 101, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.main-section__wrapper-right {
+  margin-left: 104px;
+}
+
+/* line 103, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.main-section__title {
+  color: #4D4D4D;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76px;
+  margin-bottom: 16px;
+  width: 657px;
+}
+
+/* line 110, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.main-section__text {
+  color: #717171;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+
+/* line 116, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.main-section__button {
+  padding: 14px 32px;
+  border-radius: 4px;
+  border: none;
+  background: #4CAF4F;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+/* line 126, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.span-green {
+  color: #4CAF4F;
+}
+
+/* line 129, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.second-section {
+  min-height: 690px;
+  margin-bottom: 45px;
+}
+
+/* line 132, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.second-section__title {
+  text-align: center;
+  color: #4D4D4D;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-bottom: 8px;
+}
+
+/* line 139, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.second-section__text {
+  text-align: center;
+  color: #717171;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+/* line 146, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.second-section__wrapper {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  margin-bottom: 74px;
+}
+
+/* line 151, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.second-section__wrapper2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+/* line 155, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.second-section__wrapper2-first {
+  background: #FFF;
+  max-width: 300px;
+  margin-right: 128px;
+  display: grid;
+  justify-items: center;
+  border-radius: 8px;
+}
+
+/* line 162, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.second-section__wrapper2-second {
+  background: #FFF;
+  max-width: 300px;
+  margin-right: 128px;
+  display: grid;
+  justify-items: center;
+  border-radius: 8px;
+}
+
+/* line 169, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.second-section__wrapper2-third {
+  background: #FFF;
+  max-width: 300px;
+  display: grid;
+  justify-items: center;
+  border-radius: 8px;
+}
+
+/* line 175, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.second-section__wrapper2-img {
+  padding-top: 24px;
+  margin-bottom: 16px;
+}
+
+/* line 178, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.second-section__wrapper2-title {
+  color: #4D4D4D;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+/* line 185, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.second-section__wrapper2-text {
+  color: #4D4D4D;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 0 24px 24px 24px;
+  text-align: center;
+}
+
+/* line 193, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.third-section {
+  min-height: 770px;
+}
+
+/* line 195, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.third-section__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  align-items: center;
+  margin-bottom: 130px;
+}
+
+/* line 200, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.third-section__wrapper-right_title {
+  color: #4D4D4D;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-bottom: 16px;
+  max-width: 520px;
+}
+
+/* line 207, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.third-section__wrapper-right_text {
+  color: #717171;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 32px;
+  max-width: 510px;
+}
+
+/* line 214, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.third-section__wrapper-right_button {
+  padding: 14px 32px;
+  background: #4CAF4F;
+  border-radius: 4px;
+  border: none;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+/* line 223, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.third-section__wrapper2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-bottom: 116px;
+}
+
+/* line 228, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.third-section__wrapper2-title {
+  color: #4D4D4D;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-bottom: 8px;
+}
+
+/* line 234, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.third-section__wrapper2-text {
+  color: #18191F;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* line 239, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.third-section__wrapper2-right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+/* line 243, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.third-section__wrapper2-mini {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* line 247, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.third-section__wrap2-title {
+  color: #4D4D4D;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+/* line 252, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.third-section__wrap2-text {
+  color: #717171;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* line 258, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.fourth-section {
+  min-height: 875px;
+  margin-bottom: 81px;
+}
+
+/* line 261, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.fourth-section__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+/* line 266, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.fourth-section__title {
+  color: #4D4D4D;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-bottom: 16px;
+}
+
+/* line 272, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.fourth-section__text {
+  color: #717171;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 32px;
+  max-width: 515px;
+}
+
+/* line 279, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.fourth-section__button {
+  padding: 14px 32px;
+  background: #4CAF4F;
+  border-radius: 4px;
+  border: none;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+/* line 288, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.fourth-section__wrapper2 {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+/* line 291, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.fourth-section__wrapper2-right_text {
+  color: #717171;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+/* line 296, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.fourth-section__wrapper2-right_title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+/* line 300, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.fourth-section__box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* line 303, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.fourth-section__box-small1 {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 306, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.fourth-section__box-small2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* line 310, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.fourth-section__box-text {
+  color: #4CAF4F;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  width: 188px;
+}
+
+/* line 316, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.fourth-section__box-img {
+  margin-right: 41px;
+}
+
+/* line 318, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.fourth-section__box-img:last-child {
+  margin-right: 36px;
+}
+
+/* line 321, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.margin-16 {
+  margin-bottom: 16px;
+}
+
+/* line 324, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.margin-32 {
+  margin-bottom: 32px;
+}
+
+/* line 327, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.fifth-section {
+  min-height: 780px;
+  margin-bottom: 50px;
+}
+
+/* line 330, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.fifth-section__title {
+  color: #4D4D4D;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-bottom: 16px;
+}
+
+/* line 336, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.fifth-section__text {
+  color: #717171;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  min-width: 628px;
+  margin-bottom: 16px;
+}
+
+/* line 344, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.fifth-section__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 215px;
+}
+
+/* line 349, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.fifth-section__title-big {
+  color: #263238;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76px;
+  min-width: 670px;
+  margin-bottom: 32px;
+}
+
+/* line 358, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.wrapper__main-dop {
+  z-index: 1;
+  position: relative;
+}
+
+/* line 361, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.wrapper__main-dop_img {
+  max-width: 368px;
+}
+
+/* line 364, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.wrapper__main-dop_position {
+  display: grid;
+  justify-items: center;
+  position: absolute;
+  background: #F5F7FA;
+  box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+  border-radius: 8px;
+  top: 333px;
+  left: 42px;
+  max-width: 285px;
+  z-index: 2;
+}
+
+/* line 376, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.wrapper__descr {
+  color: #717171;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 16px;
+  padding: 16px 16px 0 16px;
+  text-align: center;
+}
+
+/* line 384, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.wrapper__descr-link {
+  display: inline-flex;
+  align-items: center;
+  padding-bottom: 16px;
+}
+
+/* line 388, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.wrapper__descr-dop {
+  color: #4CAF4F;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-right: 8px;
+}
+
+/* line 395, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.wrapper__main-dop2 {
+  z-index: 1;
+  position: relative;
+}
+
+/* line 398, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.wrapper__main-dop2_img2 {
+  max-width: 368px;
+}
+
+/* line 401, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.wrapper__main-dop_position2 {
+  display: grid;
+  justify-items: center;
+  position: absolute;
+  background: #F5F7FA;
+  box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+  border-radius: 8px;
+  top: 330px;
+  left: 430px;
+  max-width: 285px;
+  z-index: 2;
+}
+
+/* line 413, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.wrapper__descr2 {
+  color: #717171;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 16px;
+  padding: 16px 16px 0 16px;
+  text-align: center;
+  max-width: 285px;
+}
+
+/* line 422, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.wrapper__descr2-link2 {
+  display: inline-flex;
+  align-items: center;
+  padding-bottom: 16px;
+}
+
+/* line 426, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.wrapper__descr2-dop2 {
+  color: #4CAF4F;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-right: 8px;
+}
+
+/* line 433, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.wrapper__main-dop3 {
+  z-index: 1;
+  position: relative;
+}
+
+/* line 436, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.wrapper__main-dop3_img3 {
+  max-width: 368px;
+}
+
+/* line 439, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.wrapper__main-dop_position3 {
+  display: grid;
+  justify-items: center;
+  position: absolute;
+  background: #F5F7FA;
+  box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+  border-radius: 8px;
+  top: 330px;
+  left: 815px;
+  max-width: 285px;
+  z-index: 2;
+}
+
+/* line 451, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.wrapper__descr3 {
+  color: #717171;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 16px;
+  padding: 16px 16px 0 16px;
+  text-align: center;
+}
+
+/* line 459, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.wrapper__descr3-link3 {
+  display: inline-flex;
+  align-items: center;
+  padding-bottom: 16px;
+}
+
+/* line 463, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.wrapper__descr3-dop3 {
+  color: #4CAF4F;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-right: 8px;
+}
+
+/* line 470, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.title-bottom {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+/* line 474, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.big-box {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+/* line 479, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.big-btn {
+  background: #4CAF4F;
+  border: none;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+}
+
+/* line 486, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.big-btn_img {
+  padding-right: 32px;
+}
+
+/* line 489, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.text {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-right: 8px;
+  padding: 14px 0 14px 32px;
+}
+
+/* line 497, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.footer {
+  min-height: 330px;
+  background: #263238;
+}
+
+/* line 500, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.footer__container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  padding-top: 65px;
+}
+
+/* line 504, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.footer__logo {
+  margin-bottom: 40px;
+}
+
+/* line 506, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.footer__text1 {
+  color: #F5F7FA;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+/* line 512, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.footer__text2 {
+  color: #F5F7FA;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+/* line 518, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.footer__icons {
+  display: inline-flex;
+  /* align-items: center */
+  /* justify-items: center */
+}
+
+/* line 522, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.footer__icon {
+  background: #4F595E;
+  margin-right: 16px;
+  border: none;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+/* line 528, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.footer__icon:last-child {
+  margin-right: 0;
+}
+
+/* line 530, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.footer__title {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+
+/* line 536, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.footer__text {
+  color: #F5F7FA;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+/* line 542, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+.footer__text:last-child {
+  margin-bottom: 0;
+}
+
+/* line 545, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+input {
+  position: relative;
+  background: #676767;
+  border-radius: 8px;
+  border: none;
+}
+
+/* line 551, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+input[type='email'] {
+  padding: 11px 0 11px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/* line 557, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+input::placeholder {
+  color: #D9DBE1;
+}
+
+/* line 560, ../vs_code/html/68-landing-nexcent/sass/style.sass */
+label {
+  position: absolute;
+  top: 130px;
+  left: 1083px;
+}
+
+/*# sourceMappingURL=style.css.map */
